@@ -11,7 +11,7 @@ const io = new Server(server, {
         methods: ["GET", "POST"]
     }
 });
-
+//
 app.get('/', (req, res) => {
      res.send('<h2>¡Este es un mensaje desde el servidor Express!</h2>');
 });
